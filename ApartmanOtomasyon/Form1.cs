@@ -16,5 +16,15 @@ namespace ApartmanOtomasyon
         {
             InitializeComponent();
         }
+
+        private void buttonIncomes_Click(object sender, EventArgs e)
+        {
+            new Incomes().Show();
+        }
+
+        private void buttonExpenses_Click(object sender, EventArgs e)
+        {
+            new Expenses().Show();
+        }
     }
 }
